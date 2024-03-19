@@ -10,7 +10,7 @@ resource "aws_instance" "app_server" {
 
   tags = {
     Name = "ExampleAppServerInstance"
-    Author = "Michal Šrámek"
+    Author = "Michal Sramek"
     IaC = "Terraform"
   }
 }
